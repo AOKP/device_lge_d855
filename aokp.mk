@@ -3,8 +3,6 @@ $(call inherit-product, device/lge/d855/full_d855.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/aokp/configs/nfc_enhanced.mk)
 
 PRODUCT_NAME := aokp_d855
 
